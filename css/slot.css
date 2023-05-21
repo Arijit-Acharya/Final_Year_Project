@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.header-section {
+  background: #e6ebf5;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  margin: 0 -20px;
+}
+
+.cols {
+  padding: 0 20px;
+}
+
+.logo-col {
+  width: 35%;
+}
+
+.address-col {
+  width: 65%;
+}
+
+.header a {
+  text-decoration: none;
+
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo .site-logo {
+  margin: 0 0 0 35px;
+}
+
+.header .logo i {
+  padding: 10px;
+  font-size: 25px;
+  margin-right: 10px 5px 10px 10px;
+  color: crimson;
+}
+
+.header .logo .site-title {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.header .logo .site-title .name {
+  color: crimson;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Corinthia';
+}
+
+.header .logo .slogan {
+  color: rgb(157 47 128);
+  font-family: 'Corinthia';
+  font-size: 20px;
+}
+
+.head-contacts {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0 -15px;
+}
+
+li {
+  width: 33.33%;
+  padding: 0 5px;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+}
+
+.address .address-icon {
+  margin: 0 5px 0 0;
+  padding: 5px;
+  font-size: 20px;
+  color: crimson;
+  text-align: center;
+}
+
+.address .address-loc {
+  font-size: 14px;
+  text-align: center;
+}
+
+.call a,
+.mail a {
+  padding: 0 5px;
+  font-size: 14px;
+  color: black;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.call a i,
+.mail a i {
+  padding: 5px;
+  margin: 0 5px 0 0;
+  font-size: 20px;
+  color: crimson;
+}
+
+.navbar-section {
+  background: crimson;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  margin: 0 -20px;
+  font-family: 'poppins';
+}
+
+.navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navbar .nav-left-col {
+  width: 80%;
+}
+
+.navbar .nav-right-col {
+  width: 20%;
+}
+
+.navbar .left,
+.navbar .right {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.navbar .left {
+  margin: 0 -12.5px
+}
+
+.navbar .right {
+  justify-content: space-around;
+  margin: 0 -10px;
+}
+
+.navbar .nav-item {
+  width: 20%;
+  padding: 0 5px;
+}
+
+.navbar .profile,
+.navbar .logout {
+  width: 50%;
+  padding: 0 5px;
+}
+
+.navbar .profile {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.show{
+  color: crimson;
+  font-family: 'poppins';
+  text-align: center;
+}
+.show h2{
+  font-weight: 400;
+}
+
+.navbar .profile img {
+  height: 100%;
+  border-radius: 50%;
+}
+
+.slot-section{
+  margin: 15px 0 10px 0;
+}
+.slot{
+  text-align: center;
+}
+
+
+
+.button{
+  text-align: center;
+}
+
+.button a{
+  background-color: crimson;
+  color: white;
+  font-size: 20px;
+  font-family: 'poppins';
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
